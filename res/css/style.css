@@ -1,89 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap');
+
 body {
-  font-family: "open sans", sans-serif;
-  line-height: 1.4;
-  background-color: #fafafa;
-  height: 100%;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.4;
+    background-color: #fafafa;
+    height: 100%;
 }
 
 .front {
-  text-align: center;
-  height: 100vh;
-  background: url("../images/vihm.gif") no-repeat;
-  background-size: 100%;
-  color: #fafafa;
-  padding-top: 50px;
-  text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    height: 100vh;
+    background: url("../images/Vihm.gif") no-repeat;
+    background-size: cover;
+    color: #fafafa;
+    padding-top: 50px;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 .header {
-  font-size: 30px;
-  margin-bottom: 50px;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
 .user_description {
 }
 
-.GPA {}
+#GPA {
+    color: rgb(231, 236, 237);
+}
 
 .avatar {
-  width: 100%;
-  display: flex;
-  margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
 }
 
 .avatar img {
-  height: 15%;
-  width: 15%;
-  margin: auto;
+    height: 15%;
+    width: 15%;
+    margin: auto;
 }
 
 .courses {
-  margin-top: 50px;
-  margin-left: 100px;
-  line-height: 2.0;
-  margin-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    line-height: 2.0;
+
 }
 
 .courses table {
-  table-layout: auto;
-  width: 80%;
+    font-family: 'Roboto', sans-serif;
+    table-layout: auto;
+    width: 100%;
 }
 
-.courses th{
+.courses th {
 }
 
 .courses td {
-  text-align: center;
+    text-align: center;
 }
 
 .footer {
-  bottom: 0;
-  width: 100%;
-  background-color: #e8e8e8;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .footer li {
-  display: inline-block;
-  margin-right: 20px;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .footer a {
-  text-decoration: none;
-  color: black;
-}
-
-#tabScroll {
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-left: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-  transform: rotate(-45deg);
-  bottom: 50px;
-  position: absolute;
-  left: 50%;
-  margin-left: -10px;
+    text-decoration: none;
+    color: black;
 }
