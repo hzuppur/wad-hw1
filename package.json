@@ -2,9 +2,9 @@
   "name": "wad-hw1",
   "version": "1.0.0",
   "description": "## Task: Make it pretty!",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no tests installed\" && exit 1",
+    "build": "tsc && browserify build/test.js > dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/hzuppur/wad-hw1#readme",
   "devDependencies": {
+    "@types/node": "^12.7.5",
+    "eslint": "^6.4.0",
+    "jquery": "^3.4.1",
     "typescript": "^3.6.3"
-  }
+  },
+  "dependencies": {}
 }
