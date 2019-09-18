@@ -25,7 +25,9 @@ body {
 .user_description {
 }
 
-.GPA {}
+#GPA {
+  color: rgb(231, 236, 237);
+}
 
 .avatar {
   width: 100%;
