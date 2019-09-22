@@ -2,9 +2,9 @@ var $:any = require("jquery");
 
 
 $(document).ready(() =>{
-    let t:string = "test";
+    let name: string = $("#name").text();
 
-    $("#test").text(t);
+    $("#nameTarget").text(name);
 });
 
 window.onload = function () {

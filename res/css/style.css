@@ -29,6 +29,10 @@ body {
     color: rgb(231, 236, 237);
 }
 
+div ~ #GPA {
+    font-weight: bold;
+}
+
 .avatar {
     width: 100%;
     display: flex;
@@ -56,6 +60,10 @@ body {
 }
 
 .courses th {
+}
+
+thead > tr {
+    border-bottom: 1px solid;
 }
 
 .courses td {
